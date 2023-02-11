@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Pacifico&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@400;500;600&family=Pacifico&family=Source+Code+Pro:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    height: 100vh;
+}
+.sidebar{
+    background-image: linear-gradient(to bottom,grey,black);
+    height: 173vh;
+    background-color:#2f2c2c;
+    width: 20vw;
+    font-family:'Oswald', sans-serif; 
+    height: 100vh;
+}
+.main{
+    background-image: linear-gradient(to left,grey,black);
+    background-color: #040405;
+    width: 90vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    box-shadow:10px 10px 10px 10px #1d1d22;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 20px;
+    list-style: none;
+    padding: 33px 0;
+    text-decoration: none;
+    text-align: center;
+}
+.sidebar nav li a:hover
+{
+   
+    text-decoration: none;
+    color: aqua;
+    
+    text-align: center;
+    
+}
+.sidebar nav li a{
+    text-shadow: 0.5px 0.5px rgb(244, 240, 5);
+    color: blue;
+    text-decoration: none;
+
+}
+
+.sidebar nav li:hover{
+    color: aqua;
+    background-color: #464545;
+}
+.infoContainer{
+    border-radius: 25px;
+    margin: 147px auto;
+    background-color: #f2f3f4;
+    height: 64vh;
+    width: 130vh;
+    display: flex;
+    justify-content: space-around;
+    box-shadow:10px 10px 10px 10px #3e3e49;
+}
+
+.container{
+    display: flex;
+
+}
+.dev pic{
+    width: 340px;
+}
+.devInfo{
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    text-shadow:2px 2px  #08b0e8;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 60px;
+color: rgb(30, 7, 145);
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    text-decoration:underline;
+   
+    color: #080809;
+font-size: 40px;
+}
+.buttons button{
+    padding:2px ;
+    margin: 7px;
+    border-radius: 5px;
+    color: #f2f3f4;
+    background-color: #464545;
+ font-size: 15px;
+}
+.buttons button:hover{
+    font-size: 20px;
+   box-shadow: 5px 5px 5px 5px black;
+    background-color: aqua;
+}
+.info1{
+  
+    font-size: 20px;
+    color: #040405;
+}
+.column{
+    border-radius: 25px;
+    background-color: #040405;
+}
+.row{
+    text-decoration:underline;
+    color: blue;
+    font-size: 25px;
+}
+#c{
+    margin: 17px;
+    width: 400px;
+    height: 10px;
+}
+#Ht{
+    margin: 17px;
+    width: 400px;
+    height: 10px;
+}
+#js{
+    margin: 17px;
+    width: 375px;
+    height: 10px;
+}
+
+#css{
+    margin: 17px;
+
+    width: 300px;
+    height: 10px;
+}
+#jav{
+    margin: 17px;
+    width: 350px;
+    height: 10px;
+}
+.education{
+    padding: 10px;
+    margin: 50px;
+    color: #06060c;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+.jumbotron{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    
+
+    color: #07070a;
+    margin: 10px;
+    font-size: 30px;
+
+}
+.inner{
+    font-size:20px ;
+}
+.divgraphs{
+    text-shadow:3px 3px #0a0aaf;
+    color: azure;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+}
+.infocontacts{
+    padding-right: 235px;
+    font-size: 20px;
+    padding-top: 63px;
+    border-width: 10px;
+}
+.form-text{
+    font-size: 10px;
+}
+.form-label{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    
+}
