@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Pacifico&family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@400;500;600&family=Pacifico&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Noto+Serif:wght@700&family=Satisfy&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -86,7 +87,10 @@
 }
 .hello{
     text-shadow:2px 2px  #08b0e8;
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Satisfy', cursive;
+        
 font-size: 60px;
 color: rgb(30, 7, 145);
 }
