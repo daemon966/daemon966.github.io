@@ -161,16 +161,20 @@ font-size: 40px;
 }
 .jumbotron{
     font-family: 'Dancing Script', cursive;
-    font-family: 'Noto Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Satisfy', cursive;
     
 
     color: #07070a;
     margin: 10px;
-    font-size: 30px;
+    font-size: 42px;
 
 }
 .inner{
-    font-size:20px ;
+    font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:23px ;
+    font-weight: 500;
 }
 .divgraphs{
     text-shadow:3px 3px #0a0aaf;
